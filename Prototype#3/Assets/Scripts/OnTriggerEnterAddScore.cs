@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Prototype #3* 
+ * Checks when a trigger is entered and adjusts the score*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //using UnityEngine.UI;

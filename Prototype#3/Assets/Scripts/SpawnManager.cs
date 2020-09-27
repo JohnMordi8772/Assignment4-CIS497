@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Prototype #3* 
+ * Manages the spawning of objects at consistent intervals*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

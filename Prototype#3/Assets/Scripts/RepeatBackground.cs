@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Prototype #3* 
+ * Makes it so that the background repeats properly so it looks continuous*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

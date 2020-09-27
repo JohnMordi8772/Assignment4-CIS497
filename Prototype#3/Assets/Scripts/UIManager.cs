@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Prototype #3* 
+ * Manages win/loss conditions and adjust UI accordingly*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

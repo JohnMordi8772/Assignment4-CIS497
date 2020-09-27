@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Prototype #3* 
+ * Allows the player to control the character and manages particles at certain situations*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,7 +32,7 @@ public class PlayerController : MonoBehaviour
         playerAnimator.SetFloat("Speed_f", 1.0f);
 
         rb = GetComponent<Rigidbody>();
-        if (Physics.gravity.y > -10)
+        if (Physics.gravity.y > -10)//prevents gravity from getting stronger and stronger on restarts
         {
             Physics.gravity *= gravityMod;
         }
@@ -55,7 +58,7 @@ public class PlayerController : MonoBehaviour
             dirtParticle.Play();
             isOnGround = true;
         }
-        else if(collision.gameObject.CompareTag("Obstacle") && !gameOver)
+        else if(collision.gameObject.CompareTag("Obstacle") && !gameOver)//particles, animations, and sounds for hitting an obstacle
         {
             Debug.Log("Game Over!");
             dirtParticle.Stop();

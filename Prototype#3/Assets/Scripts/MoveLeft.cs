@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Prototype #3* 
+ * Makes objects constantly move to the left and destroys them when they go off screen*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

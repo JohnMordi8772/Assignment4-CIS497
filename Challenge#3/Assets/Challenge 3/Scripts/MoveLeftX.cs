@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Challenge #3* 
+ * Makes objects constantly move to the left and destroys objects that go off screen*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +21,7 @@ public class MoveLeftX : MonoBehaviour
     void Update()
     {
         // If game is not over, move to the left
-        if (!playerControllerScript.gameOver)
+        if (!ScoreManager.gameOver)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
         }

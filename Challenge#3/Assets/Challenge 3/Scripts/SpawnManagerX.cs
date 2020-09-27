@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/** John Mordi* 
+ * Assignment #4 Challenge #3* 
+ * Manages the spawning of objects*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +28,7 @@ public class SpawnManagerX : MonoBehaviour
         int index = Random.Range(0, objectPrefabs.Length);
 
         // If game is still active, spawn new object
-        if (!playerControllerScript.gameOver)
+        if (!ScoreManager.gameOver)
         {
             Instantiate(objectPrefabs[index], spawnLocation, objectPrefabs[index].transform.rotation);
         }
